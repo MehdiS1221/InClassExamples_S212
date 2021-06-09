@@ -10,20 +10,33 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Type something here:"
-        />
+        android:text="Enter your email address" />
 
     <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Type email here"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Password" />
 
-        android:id="@+id/inputEditText"
-        android:hint="Type something here:"
-        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/inputEditText2"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Type password here"
+        android:inputType="textPassword" />
 
     <Button
+        android:id="@+id/nextPageButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go to next page"
-        android:id="@+id/nextPageButton"/>
+        android:text="Login" />
 </LinearLayout>
